@@ -14,10 +14,6 @@ body {
     transition: all .2s ease-in-out;
 }
 
-.item:hover {
-    box-shadow: 0 0 1em #aaa;
-}
-
 .item.completed {
     text-decoration: line-through;
 }
@@ -28,6 +24,7 @@ body {
 
 .name {
     padding-top: 3px;
+    font-size: 69px;
 }
 
 .remove {
