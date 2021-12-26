@@ -27,6 +27,10 @@ body {
     font-size: 69px;
 }
 
+.name_admin {
+    padding-top: 3px;
+}
+
 .remove {
     padding-left: 0;
 }

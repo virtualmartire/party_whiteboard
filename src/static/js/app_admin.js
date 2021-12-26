@@ -102,7 +102,7 @@ function AddItemForm({ onNewItem }) {
                 <InputGroup.Append>
                     <Button
                         type="submit"
-                        variant="success"
+                        variant="danger"
                         disabled={!newItem.length}
                         className={submitting ? 'disabled' : ''}
                     >
@@ -139,8 +139,9 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
     return (
         <Container fluid className={`item ${item.completed && 'completed'}`}>
             <Row>
-                
-                <Col xs={10} className="name">
+                <Col xs={1} className="text-center">
+                </Col>
+                <Col xs={10} className="name_admin">
                     {item.name}
                 </Col>
                 <Col xs={1} className="text-center remove">

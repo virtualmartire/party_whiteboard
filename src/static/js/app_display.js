@@ -3,7 +3,7 @@ function App() {
     return (
         <Container>
             <Row>
-                <Col md={{ offset: 3, span: 6 }}>
+                <Col md={{ offset: 0, span: 12 }}>
                     <TodoListCard />
                 </Col>
             </Row>
@@ -53,7 +53,7 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">No items yet! Add one above!</p>
+                <p className="text-center">No items yet!</p>
             )}
             {items.reverse().map(item => (
                 <ItemDisplay
