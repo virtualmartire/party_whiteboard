@@ -2,6 +2,9 @@
   "name": "101-app",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "yarn": "1"
+  },
   "license": "MIT",
   "scripts": {
     "prettify": "prettier -l --write \"**/*.js\"",
