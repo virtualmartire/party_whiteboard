@@ -1,4 +1,4 @@
-I have no idea why it works but it works :-) Basically a modified version of the to-do list app in the Docker's tutorial.
+I have no idea why it works but it works :-) Basically a modified version of the to-do list app in the Docker's tutorial that let participants to a party write shoutouts on a shared digital whiteboard.
 
 ## write.html
 On this page users can add messages to the whiteboard.
@@ -7,4 +7,4 @@ This is the page where users visualise the anonymous messages.
 ## admin.html
 This is an admin page that I use to delete the inappropriate messages.
 ## setup
-I usually run the docker image on my raspberry pi, hosting the web app locally. In this way, only participants to the party (that of course have access to the local network) can write on the whiteboard. My "whiteboard" is a smart television.
+The code is ready to be deployed on a Heroku virtual machine. My whiteboard is a smart television, while participants can utilize every device connected to the internet to write on the former.
